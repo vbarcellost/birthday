@@ -6,96 +6,101 @@
   <title>Fev 2027: Vivi's Birthday!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <main class="page">
+  <main>
     <section class="hero" aria-labelledby="event-title">
-      <div class="hero__decor hero__decor--left" aria-hidden="true">
+      <div class="balloons balloons--left" aria-hidden="true">
         <span></span>
         <span></span>
         <span></span>
       </div>
+      <div class="balloons balloons--right" aria-hidden="true">
+        <span></span>
+        <span></span>
+      </div>
 
-      <div class="hero__content">
-        <p class="eyebrow">12 de fevereiro de 2027</p>
+      <div class="hero__copy">
+        <p class="eyebrow">12 de fevereiro de 2027 | 20h</p>
         <h1 id="event-title">Fev 2027:<br>Vivi's Birthday!</h1>
         <p class="subtitle">
-          Uma celebracao elegante em azul marinho e marrom escuro, com lirios brancos, baloes brancos e muita delicadeza.
+          Uma noite off-white e preta com tema automotivo, baloes brancos e dois carros em destaque:
+          Azera preto e Cerato branco.
         </p>
-
-        <div class="event-card" aria-label="Informacoes do evento">
-          <div>
-            <span>Data</span>
-            <strong>12/02/2027</strong>
-          </div>
-          <div>
-            <span>Horario</span>
-            <strong>20h</strong>
-          </div>
-          <div>
-            <span>Local</span>
-            <strong>Aruã Brisas - Mogi das Cruzes</strong>
-          </div>
-        </div>
-
-        <div class="countdown" aria-label="Contagem regressiva para o aniversario">
-          <div>
-            <strong id="days">000</strong>
-            <span>dias</span>
-          </div>
-          <div>
-            <strong id="hours">00</strong>
-            <span>horas</span>
-          </div>
-          <div>
-            <strong id="minutes">00</strong>
-            <span>min</span>
-          </div>
-          <div>
-            <strong id="seconds">00</strong>
-            <span>seg</span>
-          </div>
-        </div>
       </div>
 
-      <figure class="photo-frame">
-        <img src="./assets/vivi-photo-placeholder.svg" alt="Espaco reservado para foto da Vivi">
-        <figcaption>Sua foto entra aqui</figcaption>
-      </figure>
-
-      <div class="hero__decor hero__decor--right" aria-hidden="true">
-        <span></span>
-        <span></span>
+      <div class="hero__panel" aria-label="Informacoes do evento">
+        <div>
+          <span>Data</span>
+          <strong>12/02/2027</strong>
+        </div>
+        <div>
+          <span>Horario</span>
+          <strong>20h</strong>
+        </div>
+        <div>
+          <span>Local</span>
+          <strong>Aruã Brisas - Mogi das Cruzes</strong>
+        </div>
       </div>
     </section>
 
-    <section class="details" aria-labelledby="details-title">
-      <div class="details__intro">
-        <p class="eyebrow">Decoracao</p>
-        <h2 id="details-title">Azul marinho, marrom escuro e flores brancas.</h2>
+    <section class="cars" aria-labelledby="cars-title">
+      <div class="section-heading">
+        <p class="eyebrow">Tema da festa</p>
+        <h2 id="cars-title">Off-white, preto, baloes e carros.</h2>
       </div>
 
-      <div class="details__grid">
-        <article>
-          <span class="detail-icon">01</span>
-          <h3>Paleta sofisticada</h3>
-          <p>Azul marinho como base, marrom escuro nos detalhes e branco para iluminar a composicao.</p>
+      <div class="car-grid">
+        <article class="car-card">
+          <img src="./assets/azera-preto.jpg" alt="Hyundai Azera preto">
+          <div>
+            <span>Carro 01</span>
+            <h3>Azera preto</h3>
+            <p>O ponto mais imponente da decoracao: elegante, escuro e sofisticado.</p>
+          </div>
         </article>
-        <article>
-          <span class="detail-icon">02</span>
-          <h3>Lirios brancos</h3>
-          <p>Arranjos delicados para trazer elegancia, leveza e um toque romantico para a festa.</p>
+
+        <article class="car-card">
+          <img src="./assets/cerato-branco.jpg" alt="Kia Cerato branco">
+          <div>
+            <span>Carro 02</span>
+            <h3>Cerato branco</h3>
+            <p>O contraste perfeito para a paleta off-white, trazendo leveza para o visual.</p>
+          </div>
         </article>
-        <article>
-          <span class="detail-icon">03</span>
-          <h3>Baloes brancos</h3>
-          <p>Um painel clean com baloes brancos para destacar a foto e o nome da aniversariante.</p>
-        </article>
+      </div>
+    </section>
+
+    <section class="countdown-section" aria-label="Contagem regressiva">
+      <div class="countdown">
+        <div>
+          <strong id="days">000</strong>
+          <span>dias</span>
+        </div>
+        <div>
+          <strong id="hours">00</strong>
+          <span>horas</span>
+        </div>
+        <div>
+          <strong id="minutes">00</strong>
+          <span>min</span>
+        </div>
+        <div>
+          <strong id="seconds">00</strong>
+          <span>seg</span>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer>
+    <p>
+      Imagens dos carros: Azera por Ethan Llamas, CC BY-SA 4.0; Cerato por crash71100, CC0, via Wikimedia Commons.
+    </p>
+  </footer>
 
   <script src="./script.js"></script>
 </body>
