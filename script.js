@@ -1,4 +1,4 @@
-const eventDate = new Date("2027-02-12T00:00:00-03:00");
+const eventDate = new Date("2026-07-28T20:00:00-03:00");
 
 const elements = {
   days: document.getElementById("days"),

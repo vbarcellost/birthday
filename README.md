@@ -2,9 +2,10 @@
 
 Landing page responsiva para a tarefa do modulo 22 da EBAC.
 
-Evento: Fev 2027: Vivi's Birthday!
-Data: 12/02/2027, às 20h.
-Local: Aruã Brisas - Mogi das Cruzes.
+Evento: July 2026: Cadu's Birthday
+Data: 28/07/2026, às 20h.
+Local: Vila Prudente - São Paulo, SP.
+Mensagem: 20 anos do Carlos Eduardo :) Conto com a sua presença!
 
 Tema visual: off-white e preto, com baloes brancos e dois carros em destaque: Azera preto e Cerato branco.
 
