@@ -103,6 +103,36 @@ h1 {
   line-height: 1.8;
 }
 
+.ticket-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 54px;
+  margin-top: 28px;
+  padding: 0 28px;
+  border: 2px solid var(--black);
+  background: var(--black);
+  color: var(--paper);
+  font-size: 0.94rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ticket-button:hover {
+  box-shadow: 8px 8px 0 rgba(8, 8, 8, 0.18);
+  transform: translate(-2px, -2px);
+}
+
+.ticket-button--light {
+  margin-top: 0;
+  border-color: var(--paper);
+  background: var(--paper);
+  color: var(--black);
+}
+
 .hero__panel {
   grid-column: 1 / -1;
   display: grid;
@@ -305,6 +335,22 @@ h2 {
   color: rgba(255, 250, 242, 0.68);
 }
 
+.ticket-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+  padding: 28px;
+  background: var(--black);
+  color: var(--paper);
+}
+
+.ticket-box h2 {
+  margin-top: 8px;
+  font-size: clamp(1.8rem, 3.5vw, 3rem);
+}
+
 footer {
   padding: 20px;
   border-top: 1px solid var(--line);
@@ -341,6 +387,11 @@ footer {
   }
 
   .invite-message {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ticket-box {
     align-items: flex-start;
     flex-direction: column;
   }
