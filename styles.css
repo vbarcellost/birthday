@@ -28,11 +28,11 @@ img {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 330px);
+  grid-template-columns: minmax(0, 0.95fr) minmax(260px, 360px);
   align-items: end;
   gap: 36px;
   width: min(1180px, calc(100% - 40px));
-  min-height: 78vh;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 72px 0 44px;
 }
@@ -46,6 +46,7 @@ img {
 }
 
 .hero__copy,
+.child-photo,
 .hero__panel,
 .section-heading,
 .car-card,
@@ -85,7 +86,9 @@ h1 {
 }
 
 .hero__panel {
+  grid-column: 1 / -1;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 20px;
   border: 1px solid var(--black);
@@ -94,12 +97,13 @@ h1 {
 }
 
 .hero__panel div {
-  padding: 16px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 16px;
+  border-right: 1px solid var(--line);
+  border-bottom: 0;
 }
 
 .hero__panel div:last-child {
-  border-bottom: 0;
+  border-right: 0;
 }
 
 .hero__panel span,
@@ -119,6 +123,30 @@ h1 {
   font-size: 1.06rem;
   line-height: 1.45;
   overflow-wrap: anywhere;
+}
+
+.child-photo {
+  overflow: hidden;
+  border: 1px solid var(--black);
+  background: var(--paper);
+  box-shadow: 12px 12px 0 var(--black);
+}
+
+.child-photo img {
+  aspect-ratio: 4 / 5;
+  height: min(62vh, 600px);
+  object-fit: cover;
+  border-bottom: 1px solid var(--black);
+}
+
+.child-photo figcaption {
+  padding: 14px 16px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .balloons {
@@ -318,7 +346,20 @@ footer {
   }
 
   .hero__panel {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__panel {
     max-width: 520px;
+  }
+
+  .hero__panel div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .hero__panel div:last-child {
+    border-bottom: 0;
   }
 
   .section-heading {

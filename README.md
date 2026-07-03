@@ -8,11 +8,12 @@ Local: Vila Prudente - São Paulo, SP.
 Mensagem: 20 anos do Carlos Eduardo :) Conto com a sua presença!
 
 Tema visual: off-white e preto, com baloes brancos e dois carros em destaque: Azera preto e Cerato branco.
+O primeiro bloco da pagina abre com um espaco grande para a foto do Cadu crianca.
 
 ## Créditos das imagens
 
 - Azera preto: Ethan Llamas, via Wikimedia Commons, licença CC BY-SA 4.0.
-- Cerato branco: crash71100, via Wikimedia Commons, licença CC0.
+- Cerato branco: LuvsMG481, via Wikimedia Commons.
 
 ## Como usar no Vercel
 
