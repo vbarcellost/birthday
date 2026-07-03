@@ -1,9 +1,9 @@
 :root {
   --black: #080808;
   --charcoal: #1d1b18;
-  --off-white: #f5f0e7;
-  --paper: #fffaf2;
-  --muted: #6e675e;
+  --off-white: #f7f7f4;
+  --paper: #ffffff;
+  --muted: #5d5d58;
   --line: rgba(8, 8, 8, 0.14);
 }
 
