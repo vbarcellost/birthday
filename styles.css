@@ -45,6 +45,23 @@ img {
   content: "";
 }
 
+.hero::after {
+  position: absolute;
+  right: clamp(24px, 7vw, 100px);
+  bottom: 160px;
+  z-index: 1;
+  width: clamp(120px, 16vw, 220px);
+  aspect-ratio: 1;
+  border: 2px solid var(--black);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 25%, var(--black) 0 8%, transparent 9%),
+    radial-gradient(circle at 50% 75%, var(--paper) 0 8%, transparent 9%),
+    linear-gradient(90deg, var(--paper) 0 50%, var(--black) 50% 100%);
+  opacity: 0.08;
+  content: "";
+}
+
 .hero__copy,
 .child-photo,
 .hero__panel,
@@ -243,6 +260,19 @@ h1 {
   border: 1px solid var(--black);
   background: var(--black);
   color: var(--paper);
+}
+
+.invite-message::before {
+  flex: 0 0 auto;
+  width: 68px;
+  aspect-ratio: 1;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 25%, var(--paper) 0 8%, transparent 9%),
+    radial-gradient(circle at 50% 75%, var(--black) 0 8%, transparent 9%),
+    linear-gradient(90deg, var(--black) 0 50%, var(--paper) 50% 100%);
+  content: "";
 }
 
 .invite-message p {
