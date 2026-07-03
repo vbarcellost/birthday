@@ -7,7 +7,7 @@ Data: 28/07/2026, às 20h.
 Local: Vila Prudente - São Paulo, SP.
 Mensagem: 20 anos do Carlos Eduardo :) Conto com a sua presença!
 
-Tema visual: Yin & Yang versao carros, com off-white e preto, baloes brancos e dois carros em destaque: Azera preto e Cerato branco.
+Tema visual: Yin & Yang versao carros, com off-white e preto e dois carros em destaque: Azera preto e Cerato branco.
 O primeiro bloco da pagina abre com um espaco grande para a foto do Cadu crianca.
 
 ## Créditos das imagens
